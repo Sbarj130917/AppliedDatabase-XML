@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name stock.xml -->
+
+<stocks>
+    <stock id = "1">
+        <movieId>3</movieId>
+        <unitInStock>3</unitInStock>
+        <desirableFlag>Yes</desirableFlag>
+    </stock>
+    
+    <stock id = "2">
+        <movieID>1</movieID>
+        <unitInStock>2</unitInStock>
+        <desirableFlag>No</desirableFlag>
+    </stock>
+    
+    <stock id = "3">
+        <movieID>6</movieID>
+        <unitInStock>6</unitInStock>
+        <desirableFlag>Yes</desirableFlag>
+    </stock>
+    
+    <stock id = "4">
+        <movieID>2</movieID>
+        <unitInStock>7</unitInStock>
+        <desirableFlag>Yes</desirableFlag>
+    </stock>
+    
+    <stock id = "5">
+        <movieID>5</movieID>
+        <unitInStock>0</unitInStock>
+        <desirableFlag>Yes</desirableFlag>
+    </stock>
+</stocks>
+    

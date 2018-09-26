@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name movie.xml -->
+<moviesAndStockInformation>
+    <movie>
+         <movieId>1</movieId>
+        <typeCode>Musical</typeCode>
+        <movieDescription>
+           <movieTitle>My Fair Lady</movieTitle>
+           <movieCopies>10</movieCopies>
+           <movieCharges>$4.50</movieCharges>
+           <movieReleaseDate>2011.06.20</movieReleaseDate>
+     </movieDescription>
+    </movie>
+    <movie>
+      <movieId>2</movieId>
+        <typeCode>Science Fiction</typeCode>
+        <movieDescription>
+          <movieTitle>The Avengers</movieTitle>
+          <movieCopies>2</movieCopies>
+          <movieCharges>$8</movieCharges>
+          <movieReleaseDate>2015.08.12</movieReleaseDate>
+        </movieDescription>
+      </movie>
+    <movie>
+      <movieId>3</movieId>
+        <typeCode>Cartoon</typeCode>
+        <movieDescription>
+          <movieTitle>Frozen</movieTitle>
+          <movieCopies>6</movieCopies>
+          <movieCharges>$2</movieCharges>
+          <movieReleaseDate>2016.07.26</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    <movie>
+        <movieId>4</movieId>
+        <typeCode>Action</typeCode>
+        <movieDescription>
+          <movieTitle>Black Panther</movieTitle>
+          <movieCopies>3</movieCopies>
+          <movieCharges>$8.50</movieCharges>
+          <movieReleaseDate>2018.02.15</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    <movie>
+      <movieId>5</movieId>
+        <typeCode>Comedy</typeCode>
+        <movieDescription>
+          <movieTitle>The Hangover</movieTitle>
+          <movieCopies>6</movieCopies>
+          <movieCharges>$5</movieCharges>
+          <movieReleaseDate>2015.03.25</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    <movie>
+        <movieId>6</movieId>
+        <typeCode>Action</typeCode>
+        <movieDescription>
+          <movieTitle>The Dark Knight</movieTitle>
+          <movieCopies>7</movieCopies>
+          <movieCharges>$6</movieCharges>
+          <movieReleaseDate>2017.09.08</movieReleaseDate>
+       </movieDescription>
+    </movie>
+ 
+    <stock>
+       <stockId>1</stockId>
+      <movieId>3</movieId>
+      <unitInStock>3</unitInStock>
+      <desirableFlag>Yes</desirableFlag>
+    </stock>
+    <stock>
+      <stockId>2</stockId>
+      <movieID>1</movieID>
+      <unitInStock>2</unitInStock>
+      <desirableFlag>No</desirableFlag>
+    </stock>
+    <stock>
+      <stockId>3</stockId>
+      <movieID>6</movieID>
+      <unitInStock>6</unitInStock>
+      <desirableFlag>Yes</desirableFlag>
+    </stock>
+    <stock>
+      <stockId>4</stockId>
+      <movieID>2</movieID>
+      <unitInStock>7</unitInStock>
+      <desirableFlag>Yes</desirableFlag>
+    </stock>
+    <stock>
+      <stockId>5</stockId>
+      <movieID>5</movieID>
+      <unitInStock>0</unitInStock>
+      <desirableFlag>Yes</desirableFlag>
+    </stock>
+  
+</moviesAndStockInformation>

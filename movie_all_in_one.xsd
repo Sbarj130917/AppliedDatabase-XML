@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.1">
+    
+<xs:element name = "moviesInformation">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="movie">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="typeCode" type="xs:string"/>
+       <xs:element name="movieDescription" maxOccurs="unbounded">
+         <xs:complexType>
+           <xs:sequence>
+             <xs:element name="movieTitle" type="xs:string"/>
+             <xs:element name="movieCopies" type="xs:positiveInteger"/>
+             <xs:element name="movieCharges" type="xs:positiveInteger"/>
+             <xs:element name="movieReleaseDate" type="xs:date"/>
+           </xs:sequence>
+         </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+     <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+   </xs:element>     
+  </xs:sequence>
+ </xs:complexType>
+        
+</xs:element>
+     
+</xs:schema>

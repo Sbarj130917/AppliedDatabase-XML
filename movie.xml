@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name movie.xml -->
+
+
+<moviesInformation>
+    <movie id = "1">
+        <typeCode>Musical</typeCode>
+        <movieDescription>
+           <movieTitle>My Fair Lady</movieTitle>
+           <movieCopies>10</movieCopies>
+           <movieCharges>$4.50</movieCharges>
+           <movieReleaseDate>2011.06.20</movieReleaseDate>
+     </movieDescription>
+    </movie>
+    
+    
+    <movie id = "2">
+        <typeCode>Science Fiction</typeCode>
+        <movieDescription>
+          <movieTitle>The Avengers</movieTitle>
+          <movieCopies>2</movieCopies>
+          <movieCharges>$8</movieCharges>
+          <movieReleaseDate>2015.08.12</movieReleaseDate>
+        </movieDescription>
+      </movie>
+        
+    
+    <movie id = "3">
+        <typeCode>Cartoon</typeCode>
+        <movieDescription>
+          <movieTitle>Frozen</movieTitle>
+          <movieCopies>6</movieCopies>
+          <movieCharges>$2</movieCharges>
+          <movieReleaseDate>2016.07.26</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    
+    <movie id = "4">
+        <typeCode>Action</typeCode>
+        <movieDescription>
+          <movieTitle>Black Panther</movieTitle>
+          <movieCopies>3</movieCopies>
+          <movieCharges>$8.50</movieCharges>
+          <movieReleaseDate>2018.02.15</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    
+    <movie id = "5">
+        <typeCode>Comedy</typeCode>
+        <movieDescription>
+          <movieTitle>The Hangover</movieTitle>
+          <movieCopies>6</movieCopies>
+          <movieCharges>$5</movieCharges>
+          <movieReleaseDate>2015.03.25</movieReleaseDate>
+       </movieDescription>
+    </movie>
+    
+    
+    <movie id = "6">
+        <typeCode>Action</typeCode>
+        <movieDescription>
+          <movieTitle>The Dark Knight</movieTitle>
+          <movieCopies>7</movieCopies>
+          <movieCharges>$6</movieCharges>
+          <movieReleaseDate>2017.09.08</movieReleaseDate>
+       </movieDescription>
+    </movie>
+</moviesInformation>

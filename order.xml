@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name order.xml -->
+
+<orders>
+    <order id = "1">
+        <employeeID>5</employeeID>
+        <venderID>5</venderID>
+        <stockID>2</stockID>
+        <orderDate>2018.04.17</orderDate>
+        <orderQuantity>2</orderQuantity>
+        <orderAmount>$10</orderAmount>
+     </order>
+        
+        <order id = "2">
+            <employeeID>3</employeeID>
+            <venderID>4</venderID>
+            <stockID>1</stockID>
+            <orderDate>2018.4.02</orderDate>
+            <orderQuantity>5</orderQuantity>
+            <orderAmount>$20</orderAmount>
+         </order>
+            
+            <order id = "3">
+                <employeeID>2</employeeID>
+                <venderID>2</venderID>
+                <stockID>4</stockID>
+                <orderDate>2018.04.28</orderDate>
+                <orderQuantity>3</orderQuantity>
+                <orderAmount>$15</orderAmount>
+            </order>
+    
+</orders>

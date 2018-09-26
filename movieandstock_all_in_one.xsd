@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.1">
+    
+<xs:element name = "moviesAndStockInformation">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element ref="movie" maxOccurs="unbounded"/>
+     <xs:element ref="stock" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+       </xs:complexType>
+         <xs:key name="PKmovie">
+           <xs:selector xpath="movie/movieId"/>
+           <xs:field xpath="."/>
+         </xs:key>
+         <xs:key name="PKstock">
+           <xs:selector xpath="stock/stockId"/>
+           <xs:field xpath="."/>
+         </xs:key>
+         <xs:keyref name="FKstockTomovie" refer="PKmovie">
+           <xs:selector xpath="movie/movieId"/>
+           <xs:field xpath="."/>
+         </xs:keyref>
+       </xs:element>
+        <xs:element name="movie">
+         <xs:complexType>
+           <xs:sequence>
+             <xs:element name="movieId" type="xs:positiveInteger"/>
+             <xs:element name="typeCode" type="xs:string"/>
+             <xs:element name="movieDescription" maxOccurs="unbounded">
+               <xs:complexType>
+                 <xs:sequence>
+                   <xs:element name="movieTitle" type="xs:string"/>
+                   <xs:element name="movieCopies" type="xs:positiveInteger"/>
+                   <xs:element name="movieCharges" type="xs:positiveInteger"/>
+                  <xs:element name="movieReleaseDate" type="xs:date"/>
+                 </xs:sequence>
+               </xs:complexType>
+               </xs:element>  
+             </xs:sequence>
+           </xs:complexType>
+           </xs:element>
+      <xs:element name="stock">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="stockId" type="xs:integer"/>
+            <xs:element name="movieId" type="xs:integer"/>
+            <xs:element name="unitInStock" type="xs:positiveInteger"/>
+            <xs:element name="desirableFlag" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>   
+    </xs:element>  
+ </xs:schema>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name customer.xml -->
+
+<customers>
+    <customer id="1">
+        <custName>Lina John</custName>
+        <custPhone>58057687540</custPhone>
+        <custCity>Charlotte</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>28202</custZipcode>
+        <typeCode>Musical</typeCode>
+        <movieTitle>My Fair Lady</movieTitle>
+     </customer>
+    
+    <customer id="2">
+        <custName>April Martin</custName>
+        <custPhone>5807532075</custPhone>
+        <custCity>Raleigh</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>27610</custZipcode>
+        <typeCode>Science Fiction</typeCode>
+        <movieTitle>The Avengers</movieTitle>
+    </customer>
+    
+    <customer id="3">
+        <custName>Betty Dove</custName>
+        <custPhone>54807646239</custPhone>
+        <custCity>Greensboro</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>27408</custZipcode>
+        <typeCode>Cartoon</typeCode>
+        <movieTitle>Frozen</movieTitle>
+    </customer>
+    
+    <customer id="4">
+        <custName>Harry Style</custName>
+        <custPhone>7585028846</custPhone>
+        <custCity>Asheville</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>28801</custZipcode>
+        <typeCode>Action</typeCode>
+        <movieTitle>Black Panther</movieTitle>
+    </customer>
+    
+    <customer id="5">
+        <custName>Ron Richard</custName>
+        <custPhone>6578343746</custPhone>
+        <custCity>Durham</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>27705</custZipcode>
+        <typeCode>Comedy</typeCode>
+        <movieTitle>The Hangover</movieTitle>
+    </customer>
+    
+    <customer id="6">
+        <custName>Garry Neil</custName>
+        <custPhone>5674652443</custPhone>
+        <custCity>Chapel Hill</custCity>
+        <custState>North Carolina</custState>
+        <custZipcode>27515</custZipcode>
+        <typeCode>Action</typeCode>
+        <movieTitle>The Dark Knight</movieTitle>
+    </customer>
+    
+</customers>

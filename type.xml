@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name type.xml -->
+<types>
+    <type Id ="1">
+        <typeCode>Musical</typeCode>
+        <typeTitle>My Fair Lady</typeTitle>
+    </type>
+    <type Id ="2">
+        <typeCode>Musical</typeCode>
+        <typeTitle>OKlahoma!</typeTitle>
+    </type>
+    <type Id ="3">
+        <typeCode>Cartoon</typeCode>
+        <typeTitle>Dilly Dally and Chit chat Cat</typeTitle>
+    </type>
+    <type Id ="4">
+        <typeCode>Cartoon</typeCode>
+        <typeTitle>Frozen</typeTitle>
+    </type>
+    <type Id ="5">
+        <typeCode>Action</typeCode>
+        <typeTitle>Amazon Journey</typeTitle>
+    </type>
+    <type Id ="6">
+        <typeCode>Action</typeCode>
+        <typeTitle>The Dark Knight</typeTitle>
+    </type>
+    <type Id ="7">
+        <typeCode>Action</typeCode>
+        <typeTitle>Black Panther</typeTitle>
+    </type>
+    <type Id ="8">
+        <typeCode>Comedy</typeCode>
+        <typeTitle>My Fair Lady</typeTitle>
+    </type>
+    <type Id ="9">
+        <typeCode>Comedy</typeCode>
+        <typeTitle>Hangover</typeTitle>
+    </type>
+    <type Id ="10">
+        <typeCode>Science Fiction</typeCode>
+        <typeTitle>The Avengers</typeTitle>
+    </type> 
+</types>
